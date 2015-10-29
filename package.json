@@ -65,7 +65,7 @@
         "contents": "window.React = require('react');"
       },
       {
-        "contents": "require('react-dom').render(require('example'),document.getElementById('component-preview'));"
+        "contents": "require('react').render(require('example'),document.getElementById('component-preview'));"
       },
       {
         "contents": "if(document.getElementById('mocha')){mocha.checkLeaks();mocha.run();}"
@@ -126,7 +126,7 @@
   },
   "dependencies": {
     "@economist/component-icon": "^3.6.6",
-    "react": "^0.14.0"
+    "react": "^0.14.1"
   },
   "devDependencies": {
     "@economist/component-devpack": "^3.4.3",
@@ -152,7 +152,7 @@
     "npm-watch": "0.0.1",
     "parallelshell": "^2.0.0",
     "pre-commit": "^1.0.10",
-    "react-dom": "^0.14.0",
+    "react-dom": "^0.14.1",
     "watchify": "^3.4.0"
   },
   "pre-commit": [
